@@ -1,0 +1,21 @@
+{
+  "name": "base",
+  "version": "1.0.1",
+  "author": "robertkawalec",
+  "contributors": [],
+ 
+  "dependencies": {
+    "angular": "^1.5.8"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  },
+  
+  "scripts": {
+      
+    "prestart": "npm install",
+    
+    "start": "npm run lite",
+    "lite": "lite-server"
+  }
+}
